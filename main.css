@@ -1,0 +1,28 @@
+.header {
+	background-color: #0077FF;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 50px;
+}
+
+.logo {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
+.name {
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	.header {
+		padding: 20px;
+	}
+	.name {
+		font-size: 1.5rem;
+	}
+}
