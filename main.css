@@ -26,3 +26,14 @@
 		font-size: 1.5rem;
 	}
 }
+@font-face {
+  font-family: 'font';
+  src: url('font.ttf') format('truetype');
+}
+body {
+  font-family: 'font', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #333333;
+}
